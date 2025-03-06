@@ -1,3 +1,35 @@
-p{
-    font-size: large;
+nav {
+    background-color: #3796e9;
+    padding: 0.7px;
+    text-align: center;
+}
+
+nav ol {
+    margin: 0;
+    li {
+        display:inline-block;
+        padding: 15px;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 0 0px;
+    }
+    li:hover{
+        background-color: rgb(42, 0, 252);
+        color: skyblue;
+        scale: 1.09;
+    }
+}
+nav ol li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ol li a:hover {
+    text-decoration: underline;
+  
+}
+.para
+{
+    font-size:18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
