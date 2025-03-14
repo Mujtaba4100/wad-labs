@@ -12,6 +12,11 @@ nav ol {
         border: 1px solid white;
         border-radius: 10px;
         margin: 0 0px;
+        a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 18px;
+        }
     }
     li:hover{
         background-color: rgb(42, 0, 252);
@@ -19,11 +24,7 @@ nav ol {
         scale: 1.09;
     }
 }
-nav ol li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 18px;
-}
+
 nav ol li a:hover {
     text-decoration: underline;
   
