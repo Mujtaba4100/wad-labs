@@ -1,3 +1,8 @@
+
+body
+{
+    background: url(images/website_background.jpeg) no-repeat center/cover ;
+}
 #table {
     width: 45%;
     margin: auto;
