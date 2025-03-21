@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Page</title>
+</head>
+<body>
+    <header id="logo">
+        <ol>
+            <li><a href="#Introduction"><img src="images/logo1.png" alt="LOGO" title="Website LOGO"></a></li>
+         
+        </ol>
+    </header>
+
+    <nav>
+        <ol>
+            <li><a href="#table">TABLE</a></li>
+            <li><a href="#form">FORM</a></li>
+            <li><a href="report">REPORT</a></li>
+        </ol>
+    </nav>
+    <div class="title">TABLE</div>
+    <table id="table">
+        <thead>
+            <tr class="row">
+                <th>Reg No.</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>Gender</th>
+                <th>Semester</th>             
+                <th>CGPA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="row">
+                <td>04072213019</td>
+                <td>Ghulam Mujtaba</td>
+                <td>Mianwali</td>
+                <td>Male</td>
+                <td>06</td>          
+                <td>0.00</td>
+            </tr>
+            <tr class="row">
+                <td>04072213019</td>
+                <td>Ghulam Mujtaba</td>
+                <td>Mianwali</td>
+                <td>Male</td>
+                <td>06</td>          
+                <td>0.00</td>
+            </tr>
+            <tr class="row">
+                <td>04072213019</td>
+                <td>Ghulam Mujtaba</td>
+                <td>Mianwali</td>
+                <td>Male</td>
+                <td>06</td>          
+                <td>0.00</td>
+            </tr>
+            <tr class="row">
+                <td>04072213019</td>
+                <td>Ghulam Mujtaba</td>
+                <td>Mianwali</td>
+                <td>Male</td>
+                <td>06</td>          
+                <td>0.00</td>
+            </tr>
+            <tr class="row">
+                <td>04072213019</td>
+                <td>Ghulam Mujtaba</td>
+                <td>Mianwali</td>
+                <td>Male</td>
+                <td>06</td>          
+                <td>0.00</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="title">FORM</div>
+    <div id="form">
+        <form action="/search">
+            <fieldset>
+                <legend>BIO</legend>
+                <label for="regNO">Reg No :</label>
+                <input type="text" id="regNO" placeholder="04072213019" required>
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder="John Cena" required>
+                <label for="city">City: </label>
+                <input type="text" id="city" placeholder="New York">
+                <label for="gender">Gender: </label>
+                <div id="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>EDUCATION</legend>
+                <label for="semester">Semester: </label>
+                <input type="number" placeholder="00" required>
+                <label for="cgpa">CGPA: </label>
+                <input type="text" placeholder="0.00" required>
+            </fieldset>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+    <div id="footer">
+        All right reserved.
+            </div>
+</body>
+</html>
