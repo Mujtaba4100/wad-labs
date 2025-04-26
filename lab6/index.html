@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab6</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-cover min-h-screen" style="background-image: url('images/background.jpeg');">
+
+    <nav class="bg-gray-700 p-4 text-white flex justify-between items-center rounded-lg m-4">
+        <a href="#Introduction" class="flex items-center space-x-2">
+            <img src="images/logo1.png" alt="Logo" class="h-10">
+            
+        </a>
+        <div class="flex space-x-4">
+            <a href="#Introduction" class="hover:underline">Intro</a>
+            <a href="#Like" class="hover:underline">Likes</a>
+            <a href="#Dislike" class="hover:underline">Dislikes</a>
+            <a href="#Report" class="hover:underline">Report</a>
+        </div>
+    </nav>
+
+    <main class="p-6 grid gap-6 grid-cols-1 md:grid-cols-2">
+
+        <section id="Introduction" class="bg-white bg-opacity-80 p-6 rounded shadow text-center">
+            <h1 class="text-2xl font-bold mb-4">Introduction</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo aspernatur autem libero velit praesentium eaque quos est molestias ex, 
+                consectetur fugit doloribus quam vel explicabo neque perferendis? Quas, voluptatum ducimus!</p>
+        </section>
+
+        <section class="bg-white bg-opacity-80 p-6 rounded shadow flex flex-col items-center text-center">
+            <div class="border border-gray-400 p-4 rounded-lg flex flex-col items-center transition hover:border-blue-500 hover:shadow-lg">
+                <img src="images/profile.jpeg" alt="Profile" class="w-24 h-24 rounded-full mb-4">
+                <h2 class="text-xl font-semibold">Ghulam Mujtaba</h2>
+                <p class="text-gray-600">Student at QAU, 6<sup>th</sup> semester</p>
+            </div>
+        </section>
+        
+
+        <section class="bg-white bg-opacity-80 p-6 rounded shadow text-center">
+            <h2 class="text-xl font-bold mb-4">Hobbies</h2>
+            <ul class="space-y-2">
+                <li>Gaming</li>
+                <li>Gardening</li>
+                <li>Movies</li>
+            </ul>
+        </section>
+
+        <section class="bg-white bg-opacity-80 p-6 rounded shadow text-center">
+            <h2 class="text-xl font-bold mb-4">Languages</h2>
+            <ul class="space-y-2">
+                <li>C++</li>
+                <li>HTML</li>
+                <li>C</li>
+            </ul>
+        </section>
+
+        <section id="Like" class="bg-white bg-opacity-80 p-6 rounded shadow md:col-span-2">
+            <h2 class="text-xl font-bold mb-4 text-center">Likes About Web Dev</h2>
+            <ul class="space-y-2 list-disc list-inside">
+                <li>Visual Creativity</li>
+                <li>Instant Feedback</li>
+                <li>Flexibility</li>
+                <li>Freelance Opportunities</li>
+            </ul>
+        </section>
+
+        <section id="Dislike" class="bg-white bg-opacity-80 p-6 rounded shadow md:col-span-2">
+            <h2 class="text-xl font-bold mb-4 text-center">Dislikes About Web Dev</h2>
+            <ul class="space-y-2 list-disc list-inside">
+                <li>Browser Bugs</li>
+                <li>Alignment Issues</li>
+                <li>Responsive Headaches</li>
+            </ul>
+        </section>
+
+        <section id="Report" class="bg-white bg-opacity-80 p-6 rounded shadow md:col-span-2 text-center">
+            <h2 class="text-2xl font-bold mb-4">Report</h2>
+            <p>Used Grid and Flex layouts. Simple TailwindCSS design. Clean and responsive.</p>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-center text-white p-4 mt-6">
+        &copy; 2025 All rights reserved.
+    </footer>
+
+</body>
+</html>
